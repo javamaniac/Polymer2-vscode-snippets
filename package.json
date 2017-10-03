@@ -1,0 +1,25 @@
+{
+  "name": "vscode-polymer-snippets",
+  "version": "1.0.0",
+  "description": "## Install",
+  "dependencies": {
+    "PolymerSnippets": "git+https://github.com/javamaniac/Polymer2-Sublime-snippets.git",
+    "convert-snippets-to-vscode": "^1.0.2"
+  },
+  "scripts": {
+    "build": "snippetToVsCode -s node_modules/PolymerSnippets -o dist/snippets/snippets.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javamaniac/vscode-polymer-snippets.git"
+  },
+  "keywords": [
+    "snippets"
+  ],
+  "author": "javamaniac",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javamaniac/vscode-polymer-snippets/issues"
+  },
+  "homepage": "https://github.com/javamaniac/vscode-polymer-snippets#readme"
+}
